@@ -1,1 +1,44 @@
 /* You can add global styles to this file, and also import other style files */
+.bo{
+    width: 300px;
+    height: 420px;
+    background-color: rgb(209, 230, 20);
+    border-radius: 20px;
+    border: 1px solid rgb(146, 141, 141);
+    position: absolute;
+    left: 38%;
+    top: 13%;
+    background-image: url(https://image.freepik.com/free-vector/banking-business-banner-finance-savings-bank-building-silhouette-city-background_48369-11853.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 10px 120px;
+    justify-content: center;
+}
+.b{
+    margin-top: 50px;
+}
+.u{
+    margin-left: 210px;
+}
+.but{
+    margin-left: 20px;
+    word-spacing: 70px;
+}
+
+.but:hover
+{
+    color: chartreuse;
+}
+.in{
+    margin-top: 80px;
+}
+.pp{
+    background-image: url(https://wallpaperaccess.com/full/1104816.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.l{
+    width: 300px;
+    height: 30px;
+    background-color: darkgrey;
+}

@@ -1,1 +1,17 @@
-<p>login works!</p>
+<div class="pp">
+
+ <div class="bo">
+    <h2 style="font-weight: bolder; color: rgb(8, 8, 8); text-align: center;">BANK DETAILS</h2> 
+    <hr>
+        <div class="b">
+            <input class="form-control" id="acc" type="text" (change)="accnochange($event)" placeholder="Account Number"><br>
+            <input class="form-control" id="pwd" type="password" (change)="pwdchange($event)"placeholder="Password"><br>
+        
+        </div>
+
+    
+
+    <button (click)="login()" class="btn btn-primary u">Login</button>
+ </div>
+</div>
+<!-- onclick=" bank.login()" -->
